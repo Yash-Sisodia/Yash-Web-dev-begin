@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Height , Width , Borders and Backgrounds in CSS </title>
+    <style> 
+        /* 1. Background Color  */
+        #firstPara {
+            background-color: green;
+            /* Nayi Baat kya h yha ? agar maine isko height 100px de di toh? */
+            height: 100px;
+            /* Ab mai iski width bhi change krunga */
+            width: 455px;
+            border : 4px solid green;
+            /* Ab mai isko border width dunga */
+            /* border-width: 4px; */
+            /* Go live -> koi frak nhi aaya output m */
+            /* Ab agr mai isko border style bhi de du ? toh kya frak aayega? */
+            /* border-style: solid; */
+            /* Ab mai isko background color bhi de du toh kya hoga?*/
+            /* border-color: blueviolet; */
+            /* Agr mujhe output k corners ko curvy krna h toh kya krna hoga , mujhe border radius ka use krna hoga  */ 
+            border-radius: 30px;
+        }
+
+        /* Background m image kese lgaye? */
+        #secondPara {
+            height: 1155px;
+            width: 455px;
+            background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQGN07OMdYynLQ/profile-displayphoto-shrink_400_400/0/1650781868055?e=1672876800&v=beta&t=8BZHf_q3PDsuIB3XFt2vfn2-O-QknzgdNXPm_KveLBw);
+            border : 2px solid red;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+        }
+    </style>
+
+</head>
+<body>
+    <h3> This is a heading  </h3>
+    <p id = "firstPara"> This is a paragraph </p>
+    <h3> This is a heading </h3>
+    <p id = "secondPara"> This is my second paragraph </p>
+</body>
+</html>
