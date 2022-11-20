@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Alignments </title>
+    <!-- here we can add new fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Here is our CSS -->
+    <style>
+
+        /* idhr font style poori body m change hojaayega */
+        body {
+        font-family: "Sofia", sans-serif;
+        }
+        .container {
+            width : 900px;
+            border : 3px solid purple;
+            margin : 33px auto;
+        }
+        .item {
+            border : 2px solid grey;
+            margin : 12px 3px;
+            padding : 12px 3px;
+            background-color: yellow;
+        }
+
+        /* Items ko right m left m kis trah se float kr skte h? */
+        /* I will target these boxes by their id */
+
+        #fruit {
+            float : left;
+            width : 50%;
+        }
+        #Chocolate {
+            float : left;
+            width : 50%;
+        }
+
+        #Chip {
+            float : left;
+            width : 50%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Maan lo ki hum grocery websites bna rhe hai jo ki ekk grocery store hai or maan lo usme alg alg trah k items hai jo bhi hum sell krte hai -->
+
+    <div class = "container">
+        <div id="fruit" class="item"> <!-- id = fruits islie diya kyunki mai isko uniquely define krna chhatha hu fruits k naam se , class = item islie diya kyunki mai agr saare item m borders ya fir margin ya fir padding ya fir border radius vagera daalna chhatha hu toh wo mai daal skta hu-->
+            <h3> Fruits </h3>
+            <p id="fruitspara" class="para"> 
+                My name is Yash Sisodia . this is my grocery store which is situated in South Delhi (NCR) . here in this area you can buy anything related to fruits any fruits which include pomogranate , mango , banana etc. 
+            </p>
+        </div>
+
+        <div id="Chocolate" class="item"> 
+            <h3> Chocolates </h3>
+            <p id="chocolatepara" class="para"> 
+                My name is Yash Sisodia . this is my grocery store which is situated in South Delhi (NCR) . here in this area you can buy anything related to Chocolates any Chocolates which include kikat , Dairymilk , snickers , snap etc. 
+            </p>
+        </div>
+
+        <div id="Chip" class="item"> 
+            <h3> Chips </h3>
+            <p id="Chipspara" class="para"> 
+                My name is Yash Sisodia . this is my grocery store which is situated in South Delhi (NCR) . here in this area you can buy anything related to chips  any chips which include Mad angle , uncle chips , namkeen etc. 
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
